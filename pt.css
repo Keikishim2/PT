@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#wrapper {
+    width: 1046px;
+    display: flex;
+    margin: auto;
+    padding: 0 10px 10px 10px;
+    font: 8pt sans-serif;
+    text-align: center;
+    color: #000;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    background-color: #f0efef;
+}
+.header {
+    display: flex;
+}
+.header li:first-child {
+    margin-top: 20px;
+    line-height: 15px;
+    height: 30px;
+}
+.line {
+    width: 54px;
+    height: 378px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+}
+.header li, .line li, .label li {
+    line-height: 50px;  color: #FE0303;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    margin: 0 2px 2px 0;
+}
+span.elements {
+    font: bold 12pt sans-serif;
+    color: #1913A2;
+    display: block;
+}
+#blue {
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    width: 108px;
+    height: 378px;
+    display: flex;
+}
+#pink {
+    width: 540px;
+    height: 216px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+#pink li {
+    width: 50px;
+    height: 47px;
+    background-color: #fa9e9d;
+    border: 1px solid #808080;
+    margin: 0 2px 2px 0;
+    padding-top: 3px;
+}
+#yellow li {
+    background-color: #ffce0b;
+    border: 1px solid hsl(0, 0%, 50%);
+    height: 47px;
+    margin: 0 2px 2px 0;
+    padding-top: 3px;
+    width: 50px;
+}
+#blue li {
+    margin: 0 2px 2px 0;
+    padding-top: 3px;
+    width: 50px;
+    height: 47px;
+    background-color: #6c9dff;
+    border: 1px solid #7c7b7b;
+}
+.label {
+    margin: 20px 0 0 20px;
+    height: 108px;
+    width: 142px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.label li {
+    width: 100px;
+    margin: 0 2px 2px 0;
+    height: 50px;
+}
+.label li:nth-child(3), .label li:nth-child(4) {
+    width: 28px;
+    text-align: right;
+}
+#yellow {
+    height: 378px;
+    width: 324px;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-end;
+}
+#green {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 108px;
+    width: 756px;
+}
+#green li {
+    background-color: #11d415;
+    border: 1px solid #696767;
+    margin: 0px 2px 2px 0px;
+    padding-top: 3px;
+    width: 50px;
+    height: 47px;
+}
